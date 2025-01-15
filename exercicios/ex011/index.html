@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir site em vários dispositivos differentes ou simplesmete aummente o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="foto-g">
+    </picture>
+
+    <h1>Vamos aprender a reproduzindo aúdio em HTML5.</h1>
+    <audio src="midia/Creme Brulee - The Soundlings.mp3"controls>musica</audio>
+    <!--MP3 WAV OGG-->
+    <audio preload="metadata" controls>
+        <source src="midia/Going Home - The Soundlings.mp3" type="audio/mpeg">
+        <source src="midia/Going Home - The Soundlings.ogg" type="audio/ogg">
+        <source src="midia/Going Home - The Soundlings.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.</p>,
+        <a href="midia/Going Home - The Soundlings.mp3">Clique aqui para baixar o arquivo</a>
+    </audio>
+</body>
+</html> 
