@@ -16,18 +16,12 @@
     font-style: normal;
   }
   
-  .passion-one-bold {
-    font-family: "Passion One", serif;
-    font-weight: 700;
-    font-style: normal;
+  :root{
+    --font01:verdana, Geneva, Tahoma, sans-serif;
+    --font02:'Passion One', cursive;
+    --font03:'Sriracha', cursive;
+
   }
-  
-  .passion-one-black {
-    font-family: "Passion One", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
 
   *{
     margin: 0px;
@@ -37,6 +31,7 @@
   html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--font01);
   }
 
   header{
@@ -49,10 +44,13 @@
 header > h1{
   padding-top: 50px;
   font-variant: small-caps;
+  font-family: var(--font02);
+  font-size: 4vw;
 }
 
 header> p{
   padding-bottom: 50px;
+  font-size: 1.5vw;
 
 }
 
@@ -72,24 +70,24 @@ section{
   padding-bottom: 10vh;
   line-height: 2em;
   padding: 30px;
+  font-family: var(--font03);
+  font-size: 2.4vw;
 }
 
 section.normal{
   background-color: white;
   color: black;
-
-
+  
 }
 
 section.imagem{
-
 background-color: rgb(42, 42, 42);
 color: white;
 
 }
 
 section.imagem > p{
-   width: 400px;
-   background-color: rgba(0, 0, 0, 0.042)
-   ;
+   display: inline-block;
+   background-color: rgba(0, 0, 0, 0.042);
+   padding: 5px;
 }
