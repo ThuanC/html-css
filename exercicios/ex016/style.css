@@ -8,6 +8,7 @@ p{
 }
 body{
    background-image: linear-gradient(to top,#8FC1B5,#589A8D, #007566);
+   background-attachment: fixed;
 
 }
 main{
